@@ -1,0 +1,29 @@
+#hdfs.server	=	dev.localdomain:9000
+#hive.server	=	dev.localdomain:10000
+
+hdfs.server	=	dev.localdomain:9000
+hive.server	=	192.168.100.12:10000
+
+#hdfs.server	=	192.168.100.44:9000
+#hive.server	=	192.168.100.44:10000
+
+#hdfs.server	=	210.14.64.237:9000
+#hive.server	=	210.14.64.237:10000
+
+#hdfs.server	=	ufda.localdomain:9000
+#hive.server	=	ufda.localdomain:10000
+
+#hdfs.server	=	192.168.100.156:9000
+#hive.server	=	192.168.100.156:10000
+
+#hive\u7684job\u4e34\u65f6\u6587\u4ef6\u8def\u5f84
+hive.exec.scratchdir = /tmp/hive-ufda/
+
+#\u7edf\u8ba1\u7684\u6700\u5927\u8bbf\u95ee\u6df1\u5ea6
+browse.deep.max = 20
+
+#\u7edf\u8ba1\u7684\u6700\u5927\u4f1a\u8bdd\u65f6\u957f(s)
+session.time.max = 3600
+#\u7edf\u8ba1\u7684\u4f1a\u8bdd\u65f6\u957f\u6b65\u957f(s),\u6b64\u503c\u5e94\u80fd\u88absession.time.max\u6574\u9664
+session.time.step = 120
+

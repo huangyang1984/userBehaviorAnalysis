@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<taglib>
+	<jsp-version>2.0</jsp-version>
+	<tlib-version>1.0</tlib-version>
+	<tag>
+		<description>page tag</description>
+		<name>page</name>
+		<tag-class>net.gbicc.commons.tag.PageTag</tag-class>
+		<body-content>empty</body-content>
+		<attribute>
+			<name>colspan</name>
+			<required>true</required>
+			<rtexprvalue>true</rtexprvalue>
+			<type>int</type>
+		</attribute>
+		<attribute>
+			<name>size</name>
+			<required>true</required>
+			<rtexprvalue>true</rtexprvalue>
+			<type>int</type>
+		</attribute>
+		<attribute>
+			<name>pageIndex</name>
+			<required>true</required>
+			<rtexprvalue>true</rtexprvalue>
+			<type>int</type>
+		</attribute>
+		<attribute>
+			<name>totalPage</name>
+			<required>true</required>
+			<rtexprvalue>true</rtexprvalue>
+			<type>int</type>
+		</attribute>
+	</tag>
+</taglib>

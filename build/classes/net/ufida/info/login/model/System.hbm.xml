@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+  <class dynamic-update="true" table="tb_subsys" lazy="false" name="net.ufida.info.login.model.System" dynamic-insert="true">
+    <id type="integer" column="sys_id" length="32" name="idStr">
+      <generator class="native"/>
+    </id>
+    <property name="name" type="string" column="sys_name"/>
+    <property name="code" type="string" column="sys_code"/>
+  </class>
+</hibernate-mapping>

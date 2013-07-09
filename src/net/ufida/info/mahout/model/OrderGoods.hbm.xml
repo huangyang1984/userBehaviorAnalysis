@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+  <class dynamic-update="true" table="order_goods" lazy="false" name="net.ufida.info.mahout.model.OrderGoods" dynamic-insert="true">
+    <id type="integer" column="rec_id" length="32" name="recId">
+      <generator class="native"/>
+    </id>
+    <property name="userId" type="integer" column="user_id"/>
+    <property name="goodsId" type="integer" column="goods_id"/>
+    <property name="goodsPrice" type="java.math.BigDecimal" column="goods_price"/>
+    <property name="goodsType" type="integer" column="goods_type"/>
+    <property name="goodsName" type="string" column="goods_name"/>
+    <property name="catId" type="integer" column="cat_id"/>
+    <property name="brandId" type="integer" column="brand_id"/>
+    <property name="goodsNumber" type="integer" column="goods_number"/>
+    <property name="goodsSn" type="string" column="goods_sn"/>
+    <property name="orderId" type="integer" column="order_id"/>
+  </class>
+</hibernate-mapping>
+
+

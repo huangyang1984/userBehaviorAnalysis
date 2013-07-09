@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN" "http://www.springframework.org/dtd/spring-beans.dtd">
+<beans>
+<!-- 	<bean id="propertyConfigure"
+		class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+		<property name="locations">
+			<list>
+				<value>classpath:jdbc.properties</value>
+			</list>
+		</property>
+	</bean> -->
+	
+	<!-- <import resource="classpath:net/ufida/info/conf/info-component.xml" /> -->
+	<import resource="classpath:net/ufida/x27/conf/x27-component.xml" />
+	<import resource="classpath:spring-hibernate.xml" />
+ <!--    <import resource="classpath:quartz-context.xml" />   -->
+    <import resource="classpath:task-context.xml" />
+</beans>

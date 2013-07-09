@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/src/net/ufida/info/mahout/model
+END
+KOrderGoods.xml
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/ufda/!svn/ver/346/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/src/net/ufida/info/mahout/model/KOrderGoods.xml
+END
+Category.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/src/net/ufida/info/mahout/model/Category.hbm.xml
+END
+BasicRemmenderModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/src/net/ufida/info/mahout/model/BasicRemmenderModel.java
+END
+KOrderInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/ufda/!svn/ver/346/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/src/net/ufida/info/mahout/model/KOrderInfo.java
+END
+OrderGoods.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/src/net/ufida/info/mahout/model/OrderGoods.java
+END
+KGoods.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/ufda/!svn/ver/346/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/src/net/ufida/info/mahout/model/KGoods.hbm.xml
+END
+KCategory.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/ufda/!svn/ver/347/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/src/net/ufida/info/mahout/model/KCategory.hbm.xml
+END
+Category.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/src/net/ufida/info/mahout/model/Category.java
+END
+RecommenderComputerResult.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/ufda/!svn/ver/343/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/src/net/ufida/info/mahout/model/RecommenderComputerResult.java
+END
+KOrderGoods.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/ufda/!svn/ver/346/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/src/net/ufida/info/mahout/model/KOrderGoods.java
+END
+BasicRemmenderModel.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/ufda/!svn/ver/338/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/src/net/ufida/info/mahout/model/BasicRemmenderModel.hbm.xml
+END
+KOrderInfo.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/ufda/!svn/ver/346/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/src/net/ufida/info/mahout/model/KOrderInfo.hbm.xml
+END
+KGoods.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/ufda/!svn/ver/346/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/src/net/ufida/info/mahout/model/KGoods.java
+END
+KCategory.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/ufda/!svn/ver/347/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/src/net/ufida/info/mahout/model/KCategory.java
+END
+OrderGoods.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/src/net/ufida/info/mahout/model/OrderGoods.hbm.xml
+END

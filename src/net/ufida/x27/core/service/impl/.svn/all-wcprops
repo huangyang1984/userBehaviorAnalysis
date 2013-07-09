@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/src/net/ufida/x27/core/service/impl
+END
+RoleServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/src/net/ufida/x27/core/service/impl/RoleServiceImpl.java
+END
+PrivilegeServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/src/net/ufida/x27/core/service/impl/PrivilegeServiceImpl.java
+END
+OrgServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/src/net/ufida/x27/core/service/impl/OrgServiceImpl.java
+END
+AccessoryServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/src/net/ufida/x27/core/service/impl/AccessoryServiceImpl.java
+END

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+  <class dynamic-update="true" table="k_order_info" lazy="false" name="net.ufida.info.mahout.model.KOrderInfo" dynamic-insert="true">
+    <id type="integer" column="order_id" length="32" name="orderId">
+      <generator class="native"/>
+    </id>
+    <property name="orderSn" type="string" column="order_sn"/>
+    <property name="userId" type="integer" column="user_id"/>
+    <property name="orderStatus" type="integer" column="order_status"/>
+    <property name="shippingStatus" type="integer" column="shipping_status"/>
+    <property name="payStatus" type="integer" column="pay_status"/>
+    <property name="consignee" type="string" column="consignee"/>
+    <property name="country" type="integer" column="country"/>
+    <property name="province" type="integer" column="province"/>
+    <property name="city" type="integer" column="city"/>
+    <property name="district" type="integer" column="district"/>
+    <property name="address" type="string" column="address"/>
+    <property name="zipCode" type="string" column="zipCode"/>
+    <property name="tel" type="string" column="tel"/>
+    <property name="mobile" type="string" column="mobile"/>
+    <property name="email" type="string" column="email"/>
+    <property name="bestTime" type="string" column="best_time"/>
+    <property name="signBuilding" type="string" column="sign_building"/>
+    <property name="postScript" type="string" column="postscript"/>
+    <property name="shippingId" type="integer" column="shipping_id"/>
+    <property name="shippingName" type="string" column="shipping_name"/>
+    <property name="payId" type="integer" column="pay_id"/>
+    <property name="payName" type="string" column="pay_name"/>
+    <property name="howOos" type="string" column="how_oos"/>
+    <property name="howSurplus" type="string" column="how_surplus"/>
+    <property name="parkName" type="string" column="park_name"/>
+    <property name="cardName" type="string" column="card_name"/>
+    <property name="cardMessage" type="string" column="card_message"/>
+    <property name="invPayee" type="string" column="inv_payee"/>
+    <property name="invContent" type="string" column="inv_content"/>
+    <property name="goodsAmount" type="string" column="goods_amount"/>
+    <property name="shippingFee" type="integer" column="shipping_fee"/>
+    <property name="insureFee" type="string" column="insure_fee"/>
+    <property name="payFee" type="string" column="pay_fee"/>
+    <property name="packFee" type="string" column="pack_fee"/>
+    <property name="cardFee" type="string" column="card_fee"/>
+    <property name="moneyPaid" type="string" column="money_paid"/>
+    <property name="surplus" type="string" column="surplus"/>
+    <property name="integral" type="string" column="integral"/>
+    <property name="integralMoney" type="string" column="integral_money"/>
+    <property name="bonus" type="java.math.BigDecimal" column="bonus"/>
+    <property name="orderAmount" type="java.math.BigDecimal" column="order_amount"/>
+    <property name="fromAd" type="integer" column="from_ad"/>
+    <property name="referer" type="string" column="referer"/>
+    <property name="addTime" type="integer" column="add_time"/>
+    <property name="confirmTime" type="integer" column="confirm_time"/>
+    <property name="payTime" type="integer" column="pay_time"/>
+    <property name="shippingTime" type="integer" column="shipping_time"/>
+    <property name="packId" type="integer" column="pack_id"/>
+    <property name="cardId" type="integer" column="card_id"/>
+    <property name="bonusId" type="integer" column="bonus_id"/>
+	<property name="invoiceNo" type="string" column="invoice_no"/>
+    <property name="extensionCode" type="string" column="extension_code"/>
+    <property name="extensionId" type="integer" column="extension_id"/>
+    <property name="toBuyer" type="string" column="to_buyer"/>
+    <property name="payNote" type="string" column="pay_note"/>
+    <property name="agencyId" type="integer" column="agency_id"/>
+    <property name="invType" type="string" column="inv_type"/>
+    <property name="tax" type="java.math.BigDecimal" column="tax"/>
+    <property name="isSeparate" type="integer" column="is_separate"/>
+    <property name="parentId" type="integer" column="parent_id"/>
+    <property name="discount" type="java.math.BigDecimal" column="discount"/>
+  </class>
+</hibernate-mapping>

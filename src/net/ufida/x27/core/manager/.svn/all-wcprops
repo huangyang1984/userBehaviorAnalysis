@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/src/net/ufida/x27/core/manager
+END
+SystemCfgManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/src/net/ufida/x27/core/manager/SystemCfgManager.java
+END
+AccessoryContentManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/src/net/ufida/x27/core/manager/AccessoryContentManager.java
+END
+PrivilegeManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/src/net/ufida/x27/core/manager/PrivilegeManager.java
+END
+OrgManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/src/net/ufida/x27/core/manager/OrgManager.java
+END
+AccessoryManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/src/net/ufida/x27/core/manager/AccessoryManager.java
+END
+UserManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/src/net/ufida/x27/core/manager/UserManager.java
+END
+RoleManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/src/net/ufida/x27/core/manager/RoleManager.java
+END

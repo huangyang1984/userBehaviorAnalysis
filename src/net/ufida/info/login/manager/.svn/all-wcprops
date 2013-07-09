@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/src/net/ufida/info/login/manager
+END
+SystemRoleManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/src/net/ufida/info/login/manager/SystemRoleManager.java
+END
+LoginManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/src/net/ufida/info/login/manager/LoginManager.java
+END
+SystemMenuManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/src/net/ufida/info/login/manager/SystemMenuManager.java
+END
+SystemRoleMenuManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/src/net/ufida/info/login/manager/SystemRoleMenuManager.java
+END
+SystemUserManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/src/net/ufida/info/login/manager/SystemUserManager.java
+END

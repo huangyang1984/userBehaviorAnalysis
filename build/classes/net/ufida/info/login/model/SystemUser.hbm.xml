@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+  <class dynamic-update="true" table="tb_sys_user" lazy="false" name="net.ufida.info.login.model.SystemUser" dynamic-insert="true">
+    <id type="integer" column="SYS_USER_ID" length="32" name="idStr">
+      <generator class="native"/>
+    </id>
+    <property name="account" type="string" column="USER_NAME"/>
+    <property name="name" type="string" column="REAL_NAME"/>
+    <property name="password" type="string" column="PASSWORD"/>
+    <property name="active" type="string" column="STATUS"/>
+    <property name="online" type="string" column="ON_LINE"/>
+    <property name="last_ip" type="string" column="LAST_LOGIN_IP"/>
+    <property name="last_date" type="timestamp" column="LAST_LOGIN_DATE"/>
+    <bag table="tb_subsys_user_role" lazy="true" inverse="true" cascade="save-update" name="sysRoleList">
+      <key column="sys_user_id"/>
+      <many-to-many column="subsys_role_id" class="net.ufida.info.login.model.SystemRole"/>
+    </bag>
+  </class>
+</hibernate-mapping>

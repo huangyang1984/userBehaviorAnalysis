@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN" "http://www.springframework.org/dtd/spring-beans.dtd">
+
+<beans default-autowire="byName" default-lazy-init="true">
+	<bean id="loginCtrl" class="net.ufida.x27.core.web.LoginCtrl" />
+
+	<!-- 引用ehCache的配置 
+	<bean id="defaultCacheManager"
+		class="org.springframework.cache.ehcache.EhCacheManagerFactoryBean">
+		<property name="configLocation">
+			<value>classpath:net/gbicc/x27/conf/x27-ehcache.xml</value>
+		</property>
+	</bean>
+	-->
+
+	<!-- sql语句配置信息文件 -->
+	<bean id="configDB" class="net.ufida.x27.util.cfg.ConfigFile"
+		init-method="reload">
+		<property name="fileName"
+			value="net/ufida/x27/conf/x27-Dictionary-DB.properties" />
+		<property name="charsetName" value="UTF-8" />
+	</bean>
+
+	<!-- 文件配置信息文件 -->
+	<bean id="configFile" class="net.ufida.x27.util.cfg.ConfigFile"
+		init-method="reload">
+		<property name="fileName"
+			value="net/ufida/x27/conf/x27-Dictionary-File.properties" />
+		<property name="charsetName" value="UTF-8" />
+	</bean>
+
+	<!-- 文件配置类型的字典 -->
+	<bean id="dictionaryFactoryFile"
+		class="net.ufida.x27.dict.service.impl.DictionaryFactoryFile">
+		<property name="config" ref="configFile" />
+	</bean>
+
+	<!-- sql语句配置的字典 -->
+	<bean id="dictionaryFactoryDB"
+		class="net.ufida.x27.dict.service.impl.DictionaryFactoryDB">
+		<property name="config" ref="configDB" />
+		<property name="dataSource" ref="dataSource" />
+	</bean>
+
+	<!-- 下拉框数据字典tag缓存 -->
+	<bean id="dictTagCache"
+		class="com.opensymphony.oscache.general.GeneralCacheAdministrator" />
+
+	<!-- jsonConvert -->
+	<bean id="jsonConvert" class="net.ufida.x27.util.web.JSONConvert">
+		<property name="dictionaryFactory" ref="dictionaryFactoryDB" />
+	</bean>
+
+	<!-- 
+		<bean id="authorFilter" class="net.gbicc.x27.core.web.utilfilter.AuthorFilter">
+		<property name="exceptPathExt" value="${authorFilterProxy.exceptPathExt}" />
+		</bean>
+	-->
+
+	<bean id="enumManager"
+		class="net.ufida.x27.dict.manager.EnumManager" />
+	<bean id="dictManager"
+		class="net.ufida.x27.dict.manager.DictManager" />
+		
+	<bean id="dictService"
+		class="net.ufida.x27.dict.service.impl.DictServiceImpl" />
+	<bean id="enumService"
+		class="net.ufida.x27.dict.service.impl.EnumServiceImpl" />
+
+</beans>

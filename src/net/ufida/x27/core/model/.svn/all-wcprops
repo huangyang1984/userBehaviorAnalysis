@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/src/net/ufida/x27/core/model
+END
+Role.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/src/net/ufida/x27/core/model/Role.java
+END
+User.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/src/net/ufida/x27/core/model/User.hbm.xml
+END
+SystemCfg.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/src/net/ufida/x27/core/model/SystemCfg.java
+END
+Organization.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/src/net/ufida/x27/core/model/Organization.java
+END
+Privilege.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/src/net/ufida/x27/core/model/Privilege.hbm.xml
+END
+AccessoryContent.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/src/net/ufida/x27/core/model/AccessoryContent.hbm.xml
+END
+User.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/src/net/ufida/x27/core/model/User.java
+END
+Accessory.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/src/net/ufida/x27/core/model/Accessory.hbm.xml
+END
+Role.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/src/net/ufida/x27/core/model/Role.hbm.xml
+END
+Privilege.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/src/net/ufida/x27/core/model/Privilege.java
+END
+AccessoryContent.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/src/net/ufida/x27/core/model/AccessoryContent.java
+END
+SystemCfg.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/src/net/ufida/x27/core/model/SystemCfg.hbm.xml
+END
+Organization.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/src/net/ufida/x27/core/model/Organization.hbm.xml
+END
+PrivilegeVo.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/src/net/ufida/x27/core/model/PrivilegeVo.java
+END
+Accessory.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/src/net/ufida/x27/core/model/Accessory.java
+END

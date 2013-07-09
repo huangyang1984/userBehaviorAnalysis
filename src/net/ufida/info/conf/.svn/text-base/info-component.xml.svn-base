@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN" "http://www.springframework.org/dtd/spring-beans.dtd">
+
+<beans default-autowire="byName" default-lazy-init="true">
+		
+	<bean id="loginManager"
+		class="net.ufida.info.login.manager.LoginManager" >
+	    <property name="sessionFactory">  
+                <ref bean="sessionFactory"/>  
+         </property>  	
+    </bean>	
+
+	<bean id="loginService"
+		class="net.ufida.info.login.service.LoginServiceImpl" />
+		
+	<bean id="userCfManager"
+		class="net.ufida.info.mahout.manager.UserCfManager" >
+		 <property name="sessionFactory">  
+                <ref bean="sessionFactory"/>  
+         </property>  
+    </bean>	
+
+	<bean id="userCfService"
+		class="net.ufida.info.mahout.service.UserCfServiceImpl" />
+		
+	<bean id="slopeOneManager"
+		class="net.ufida.info.mahout.manager.SlopeOneManager" >
+	   <property name="sessionFactory">  
+                <ref bean="sessionFactory"/>  
+       </property>  	
+    </bean>	
+
+	<bean id="slopeOneService"
+		class="net.ufida.info.mahout.service.SlopeOneServiceImpl" >
+	</bean>
+		
+    <bean id="orderGoodsManager"
+		class="net.ufida.info.mahout.manager.OrderGoodsManager" >
+	   <property name="sessionFactory">  
+                <ref bean="sessionFactory"/>  
+       </property>  	
+	</bean>
+		
+    <bean id="categoryManager"
+		class="net.ufida.info.mahout.manager.CategoryManager" >
+	   <property name="sessionFactory">  
+                <ref bean="sessionFactory"/>  
+       </property>  
+	</bean> 
+	
+	<bean id="kGoodsManager"
+		class="net.ufida.info.mahout.manager.KGoodsManager" >
+	   <property name="sessionFactory">  
+                <ref bean="sessionFactory"/>  
+       </property>  
+	</bean> 
+		
+		
+	<bean id="kCategoryManager"
+		class="net.ufida.info.mahout.manager.KCategoryManager" >
+	   <property name="sessionFactory">  
+                <ref bean="sessionFactory"/>  
+       </property>  
+	</bean> 	
+</beans>

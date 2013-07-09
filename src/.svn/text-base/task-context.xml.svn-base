@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>   
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN" "http://www.springframework.org/dtd/spring-beans.dtd">
+
+<beans>
+	<!-- 与quartz有关的设置 -->
+	<bean id="exceptionJob" class="net.ufida.info.mahout.job.GetRequiredDataJob" >
+	   <property name="slopeOneManager" ref="slopeOneManager"></property>
+	</bean>
+
+	<bean id="exceptionJobTask"
+		class="org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean">
+		<property name="targetObject">
+			<ref bean="exceptionJob" /><!-- 调用的Job类 -->
+		</property>
+		<property name="targetMethod">
+			<value>run</value><!-- 调用的类中的方法 -->
+		</property>
+	</bean>
+
+	<bean id="ExceptionRunTime" class="org.springframework.scheduling.quartz.CronTriggerBean">
+		<property name="jobDetail">
+			<ref bean="exceptionJobTask" />
+		</property>
+		<property name="cronExpression">
+			<!-- 每天23点执行一次   -->
+			  <value>0 0 23 * * ?</value>
+		</property>
+	</bean>
+
+	<!-- 总管理类，如果lazy-init='false',则容器启动时就会执行调度程序 -->
+	<!-- 如果lazy-init='true',则需要实例化该bean才能执行调度程序 -->
+
+	<bean id="billStartQuartz" lazy-init="false"
+		class="org.springframework.scheduling.quartz.SchedulerFactoryBean">
+		<property name="triggers">
+			<list>
+				<ref bean="ExceptionRunTime" />
+			</list>
+		</property>
+	</bean>
+
+
+</beans>

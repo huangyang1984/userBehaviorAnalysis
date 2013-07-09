@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+  <class dynamic-update="true" table="tmp_good_order" lazy="false" name="net.ufida.info.mahout.model.BasicRemmenderModel" dynamic-insert="true">
+    <cache usage="read-only"/>
+    <id type="integer" column="id" length="32" name="idStr">
+      <generator class="native"/>
+    </id>
+    <property name="userId" type="integer" column="user_id"/>
+    <property name="productId" type="integer" column="goods_id"/>
+    <property name="indicator" type="integer" column="goods_number"/>
+    <property name="orderId" type="integer" column="order_id"/>
+  </class>
+</hibernate-mapping>
+
+

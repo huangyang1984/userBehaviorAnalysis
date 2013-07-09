@@ -1,0 +1,50 @@
+﻿@charset "utf-8";
+
+body {font:12px/22px Verdana,Arial;}
+.cls,.clear{clear:both;}
+.blank10{height:10px;font-size:1px; display:block; clear:both; overflow:hidden;}
+.marketPrice{color:#000;}
+.marketPrice del{font-family:Georgia;}
+.mc h5{padding:0;}
+
+.w950 {margin:0 auto;width:950px; text-align:left;font:12px/22px Verdana,Arial;}
+.w950 .map_con{width:948px;height:auto;border:1px solid #FF8E35;float:left;overflow:hidden;display:inline;}
+.w950 .map_con .big_map{display: none; border:#F79646 solid 1px; Z-INDEX: 99; LEFT:10px;POSITION: absolute; TOP: 10px; BACKGROUND-COLOR: #fff;}
+.w950 .map_con .big_map .show_map{z-index:-1;width:150px;height:auto;}
+.w950 .map_con .big_map .show_map td{text-align:left;}
+.w950 .map_con .big_map .show_map .show_t1{font-size:14px; padding:5px 0 0 0; font-weight:bold;color:#B40100;height:25px;}
+.w950 .map_con .big_map .show_map .show_t2{color:#B40100; font-size:14px; text-align:center;height:25px;}
+.w950 .map_con .big_map .show_map .show_t3 a{color:#000;font-size:12px;font-weight:normal; text-decoration:none;}
+.w950 .map_con .big_map .show_map .show_t3 a:hover{color:#DD402F;font-size:12px;font-weight:normal;text-decoration:none;}
+.w950 .map_con .map_point{float:left;margin-right:90px;text-align:center;width:530px;}
+
+.w950 .footer{line-height:20px;text-align:center;color:#000;}
+.w950 .footer a{color:#000; text-decoration:none;font-size:12px;}
+.w950 .footer a:hover{text-decoration:none;color:#AE0210;}
+.w950 .footer .red{color:#AE0210;}
+
+/*      classify.html   所有分类与品牌商家     */
+#classify { width:950px; margin:0 auto; position:relative;}
+#classify .classify_top {width:950px; height:35px; border-bottom:solid 3px #e5e5e5; position:relative;float:left;}
+#classify .nike { width:950px; height:30px; line-height:30px; border-bottom:solid 1px #eaeaea; margin:0 0 8px 0; float:left; font-family:"宋体"; color:#666; }
+#classify .nike a { padding:0 8px; color:#666; text-decoration:none; }
+#classify .nike a:hover { padding:0 8px; color:#000; text-decoration:none; }
+#classify .classify_top ul { width:400px; height:35px; float:left; }
+#classify .cl_bj1 { height:33px; }
+#classify .cl_bj2 { height:35px; background:url(../images/link2.jpg) no-repeat left bottom; }
+#classify .classify_top ul li { width:138px; height:33px; float:left; }
+#classify .classify_top ul li a { width:138px; height:33px;text-indent:0; }
+#classify .classify_top ol { float:right; padding:6px 0 0 0; }
+#classify .classify_top ol li { float:right; padding:0 0 0 6px;}
+#classify .classify_top ol li input { width:72px; text-align:left; padding-left:5px; border:none; height:22px; line-height:22px; color:#5a5a5a; float:left; background:url(../images/sele.gif) no-repeat; cursor:pointer; }
+#classify .classify_footer { width:950px; overflow:hidden; }
+#classify .brand_logo { float:left;padding:15px 0 0 0; }
+#classify .brand_logo dl { padding:0 10px 5px 5px; float:left; width:279px; height:150px; display:inline; margin:0 0 20px 16px; overflow:hidden; background:url(../images/map_17.jpg) no-repeat; }
+#classify .brand_logo dd { padding:8px 5px 0 5px; height:82px;border:none; }
+#classify .brand_logo dt { padding:0 0 0 7px; font:lighter 14px "微软雅黑", "黑体"; }
+#classify .brand_logo dt span { float:right; padding:6px 6px 0 0; }
+#classify .brand_logo dt span a { width:12px; height:12px; overflow:hidden; text-indent:-99999px; float:left; background:url(../images/brand.jpg) no-repeat left top; }
+#classify .brand_logo dt span a:hover { width:12px; height:12px; overflow:hidden; text-indent:-99999px; float:left; background:url(../images/brand.jpg) no-repeat left -12px; }
+#classify .brand_logo dt a { color:#333; text-decoration:none; }
+#classify .brand_logo dt a:hover { color:#75000d; text-decoration:none; }
+#classify .brand_logo b { width:100%; color:#999; font:lighter 12px "宋体"; float:left; padding:4px 0 0 5px; }

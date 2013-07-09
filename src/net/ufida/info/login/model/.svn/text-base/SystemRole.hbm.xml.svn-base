@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+  <class dynamic-update="true" table="tb_subsys_role" lazy="false" name="net.ufida.info.login.model.SystemRole" dynamic-insert="true">
+    <id type="integer" column="subsys_role_id" length="32" name="idStr">
+      <generator class="native"/>
+    </id>
+    <property name="name" type="string" column="role_name"/>
+    <property name="syscode" type="string" column="sys_code"/>
+    <bag lazy="true" inverse="false" cascade="save-update" order-by="level,sort_value" name="sysRoleMenuList">
+      <key column="subsys_role_id"/>
+      <one-to-many class="net.ufida.info.login.model.SystemRoleMenu"/>
+    </bag>
+    <bag table="tb_subsys_user_role" lazy="true" inverse="true" cascade="save-update" name="userList">
+      <key column="subsys_role_id"/>
+      <many-to-many column="sys_user_id" class="net.ufida.info.login.model.SystemUser"/>
+    </bag>
+  </class>
+</hibernate-mapping>

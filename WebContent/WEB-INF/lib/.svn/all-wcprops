@@ -1,0 +1,887 @@
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/WebContent/WEB-INF/lib
+END
+axis.jar
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/WebContent/WEB-INF/lib/axis.jar
+END
+slf4j-log4j12-1.6.4.jar
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/WebContent/WEB-INF/lib/slf4j-log4j12-1.6.4.jar
+END
+org.springframework.batch.core-2.0.0.RELEASE-sources.jar
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/WebContent/WEB-INF/lib/org.springframework.batch.core-2.0.0.RELEASE-sources.jar
+END
+jakarta-oro.jar
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/WebContent/WEB-INF/lib/jakarta-oro.jar
+END
+jta.jar
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/WebContent/WEB-INF/lib/jta.jar
+END
+mahout-core-0.5-tests.jar
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/WebContent/WEB-INF/lib/mahout-core-0.5-tests.jar
+END
+jaxrpc.jar
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/WebContent/WEB-INF/lib/jaxrpc.jar
+END
+drools-core.jar
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/WebContent/WEB-INF/lib/drools-core.jar
+END
+org.eclipse.emf.common_2.2.1.v200702131851.jar
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/WebContent/WEB-INF/lib/org.eclipse.emf.common_2.2.1.v200702131851.jar
+END
+org.eclipse.emf.ecore.xmi_2.2.2.v200702131851.jar
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/WebContent/WEB-INF/lib/org.eclipse.emf.ecore.xmi_2.2.2.v200702131851.jar
+END
+mahout-core-0.5-job.jar
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/WebContent/WEB-INF/lib/mahout-core-0.5-job.jar
+END
+jxl.jar
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/WebContent/WEB-INF/lib/jxl.jar
+END
+scriptapi.jar
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/WebContent/WEB-INF/lib/scriptapi.jar
+END
+freemarker-2.3.10.jar
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/WebContent/WEB-INF/lib/freemarker-2.3.10.jar
+END
+org.eclipse.jdt.core_3.3.0.v_771.jar
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/WebContent/WEB-INF/lib/org.eclipse.jdt.core_3.3.0.v_771.jar
+END
+com.springsource.org.aspectj.weaver-1.5.4.jar
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/WebContent/WEB-INF/lib/com.springsource.org.aspectj.weaver-1.5.4.jar
+END
+com.springsource.org.hsqldb-1.8.0.9.jar
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/WebContent/WEB-INF/lib/com.springsource.org.hsqldb-1.8.0.9.jar
+END
+easymock.jar
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/WebContent/WEB-INF/lib/easymock.jar
+END
+hsqldb.jar
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/WebContent/WEB-INF/lib/hsqldb.jar
+END
+watchmaker-framework-0.6.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/WebContent/WEB-INF/lib/watchmaker-framework-0.6.2.jar
+END
+org.springframework.core-2.5.6.A.jar
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/WebContent/WEB-INF/lib/org.springframework.core-2.5.6.A.jar
+END
+jdom-1.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/WebContent/WEB-INF/lib/jdom-1.0.jar
+END
+xml-apis.jar
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/WebContent/WEB-INF/lib/xml-apis.jar
+END
+com.springsource.org.easymock-2.3.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/WebContent/WEB-INF/lib/com.springsource.org.easymock-2.3.0.jar
+END
+engineapi.jar
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/WebContent/WEB-INF/lib/engineapi.jar
+END
+org.eclipse.emf.ecore_2.2.2.v200702131851.jar
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/WebContent/WEB-INF/lib/org.eclipse.emf.ecore_2.2.2.v200702131851.jar
+END
+c3p0-0.9.1.2-jdk1.3.jar
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/WebContent/WEB-INF/lib/c3p0-0.9.1.2-jdk1.3.jar
+END
+antlr-runtime.jar
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/WebContent/WEB-INF/lib/antlr-runtime.jar
+END
+com.springsource.org.apache.commons.logging-1.1.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/WebContent/WEB-INF/lib/com.springsource.org.apache.commons.logging-1.1.1.jar
+END
+dataadapterapi.jar
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/WebContent/WEB-INF/lib/dataadapterapi.jar
+END
+com.springsource.org.apache.ws.commons.schema-1.3.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/WebContent/WEB-INF/lib/com.springsource.org.apache.ws.commons.schema-1.3.2.jar
+END
+com.springsource.net.sf.cglib-2.1.3.jar
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/WebContent/WEB-INF/lib/com.springsource.net.sf.cglib-2.1.3.jar
+END
+drools-jsr94.jar
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/WebContent/WEB-INF/lib/drools-jsr94.jar
+END
+acegi-security-1.0.4.jar
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/WebContent/WEB-INF/lib/acegi-security-1.0.4.jar
+END
+org.springframework.batch.infrastructure-2.0.0.RELEASE.jar
+K 25
+svn:wc:ra_dav:version-url
+V 157
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/WebContent/WEB-INF/lib/org.springframework.batch.infrastructure-2.0.0.RELEASE.jar
+END
+commons-configuration-1.5.jar
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/WebContent/WEB-INF/lib/commons-configuration-1.5.jar
+END
+p6spy.jar
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/WebContent/WEB-INF/lib/p6spy.jar
+END
+xstream.jar
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/WebContent/WEB-INF/lib/xstream.jar
+END
+mahout-math-0.5-tests.jar
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/WebContent/WEB-INF/lib/mahout-math-0.5-tests.jar
+END
+com.springsource.org.apache.commons.pool-1.3.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/WebContent/WEB-INF/lib/com.springsource.org.apache.commons.pool-1.3.0.jar
+END
+xpp3.jar
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/WebContent/WEB-INF/lib/xpp3.jar
+END
+org.springframework.oxm-1.5.5.A.jar
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/WebContent/WEB-INF/lib/org.springframework.oxm-1.5.5.A.jar
+END
+standard.jar
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/WebContent/WEB-INF/lib/standard.jar
+END
+aspectjweaver.jar
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/WebContent/WEB-INF/lib/aspectjweaver.jar
+END
+com.springsource.org.aspectj.runtime-1.5.4.jar
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/WebContent/WEB-INF/lib/com.springsource.org.aspectj.runtime-1.5.4.jar
+END
+basebox-java-0.1.9.jar
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/WebContent/WEB-INF/lib/basebox-java-0.1.9.jar
+END
+com.springsource.org.codehaus.jettison-1.0.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/WebContent/WEB-INF/lib/com.springsource.org.codehaus.jettison-1.0.0.jar
+END
+org.springframework.osgi.core-1.1.2.A.jar
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/WebContent/WEB-INF/lib/org.springframework.osgi.core-1.1.2.A.jar
+END
+com.springsource.javax.annotation-1.0.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/WebContent/WEB-INF/lib/com.springsource.javax.annotation-1.0.0.jar
+END
+watchmaker-swing-0.6.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/WebContent/WEB-INF/lib/watchmaker-swing-0.6.2.jar
+END
+com.springsource.org.xmlpull-1.1.3.4-O.jar
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/WebContent/WEB-INF/lib/com.springsource.org.xmlpull-1.1.3.4-O.jar
+END
+com.springsource.org.junit-4.4.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/WebContent/WEB-INF/lib/com.springsource.org.junit-4.4.0.jar
+END
+org.springframework.transaction-2.5.6.A.jar
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/WebContent/WEB-INF/lib/org.springframework.transaction-2.5.6.A.jar
+END
+com.springsource.org.hibernate-3.2.6.ga.jar
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/WebContent/WEB-INF/lib/com.springsource.org.hibernate-3.2.6.ga.jar
+END
+coreapi.jar
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/WebContent/WEB-INF/lib/coreapi.jar
+END
+mahout-core-0.5.jar
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/WebContent/WEB-INF/lib/mahout-core-0.5.jar
+END
+hibernate3.jar
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/WebContent/WEB-INF/lib/hibernate3.jar
+END
+com.springsource.org.apache.commons.io-1.4.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/WebContent/WEB-INF/lib/com.springsource.org.apache.commons.io-1.4.0.jar
+END
+mysql-connector-java-5.0.6-bin.jar
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/WebContent/WEB-INF/lib/mysql-connector-java-5.0.6-bin.jar
+END
+com.springsource.javax.transaction-1.1.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/WebContent/WEB-INF/lib/com.springsource.javax.transaction-1.1.0.jar
+END
+modelapi.jar
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/WebContent/WEB-INF/lib/modelapi.jar
+END
+com.springsource.javassist-3.3.0.ga.jar
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/WebContent/WEB-INF/lib/com.springsource.javassist-3.3.0.ga.jar
+END
+quartz-all-1.6.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/WebContent/WEB-INF/lib/quartz-all-1.6.0.jar
+END
+commons-logging-1.0.4.jar
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/WebContent/WEB-INF/lib/commons-logging-1.0.4.jar
+END
+spring-2.0.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/WebContent/WEB-INF/lib/spring-2.0.1.jar
+END
+wsdl4j-1.5.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/WebContent/WEB-INF/lib/wsdl4j-1.5.1.jar
+END
+com.springsource.org.objectweb.asm-2.2.3.jar
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/WebContent/WEB-INF/lib/com.springsource.org.objectweb.asm-2.2.3.jar
+END
+jstl.jar
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/WebContent/WEB-INF/lib/jstl.jar
+END
+commons-discovery-0.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/WebContent/WEB-INF/lib/commons-discovery-0.2.jar
+END
+org.springframework.batch.test-2.0.0.RELEASE.jar
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/WebContent/WEB-INF/lib/org.springframework.batch.test-2.0.0.RELEASE.jar
+END
+org.springframework.batch.infrastructure-2.0.0.RELEASE-javadoc.jar
+K 25
+svn:wc:ra_dav:version-url
+V 165
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/WebContent/WEB-INF/lib/org.springframework.batch.infrastructure-2.0.0.RELEASE-javadoc.jar
+END
+com.springsource.javax.persistence-1.0.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/WebContent/WEB-INF/lib/com.springsource.javax.persistence-1.0.0.jar
+END
+org.springframework.orm-2.5.6.A.jar
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/WebContent/WEB-INF/lib/org.springframework.orm-2.5.6.A.jar
+END
+commons-fileupload-1.2.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/WebContent/WEB-INF/lib/commons-fileupload-1.2.1.jar
+END
+com.springsource.org.apache.commons.lang-2.1.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/WebContent/WEB-INF/lib/com.springsource.org.apache.commons.lang-2.1.0.jar
+END
+com.springsource.org.hibernate.annotations.common-3.3.0.ga.jar
+K 25
+svn:wc:ra_dav:version-url
+V 161
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/WebContent/WEB-INF/lib/com.springsource.org.hibernate.annotations.common-3.3.0.ga.jar
+END
+aspectjrt.jar
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/WebContent/WEB-INF/lib/aspectjrt.jar
+END
+org.springframework.batch.infrastructure-2.0.0.RELEASE-sources.jar
+K 25
+svn:wc:ra_dav:version-url
+V 165
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/WebContent/WEB-INF/lib/org.springframework.batch.infrastructure-2.0.0.RELEASE-sources.jar
+END
+commons-beanutils-1.6.jar
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/WebContent/WEB-INF/lib/commons-beanutils-1.6.jar
+END
+aopalliance-1.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/WebContent/WEB-INF/lib/aopalliance-1.0.jar
+END
+com.springsource.org.jboss.util-2.0.4.GA.jar
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/WebContent/WEB-INF/lib/com.springsource.org.jboss.util-2.0.4.GA.jar
+END
+com.springsource.com.ibatis-2.3.0.677.jar
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/WebContent/WEB-INF/lib/com.springsource.com.ibatis-2.3.0.677.jar
+END
+org.springframework.aop-2.5.6.A.jar
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/WebContent/WEB-INF/lib/org.springframework.aop-2.5.6.A.jar
+END
+drools-compiler.jar
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/WebContent/WEB-INF/lib/drools-compiler.jar
+END
+dom4j-full.jar
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/WebContent/WEB-INF/lib/dom4j-full.jar
+END
+ehcache-1.3.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/WebContent/WEB-INF/lib/ehcache-1.3.0.jar
+END
+org.eclipse.osgi-3.4.2.R34x_v20080826-1230.jar
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/WebContent/WEB-INF/lib/org.eclipse.osgi-3.4.2.R34x_v20080826-1230.jar
+END
+org.springframework.context-2.5.6.A.jar
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/WebContent/WEB-INF/lib/org.springframework.context-2.5.6.A.jar
+END
+flute.jar
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/WebContent/WEB-INF/lib/flute.jar
+END
+asm.jar
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/WebContent/WEB-INF/lib/asm.jar
+END
+mail.jar
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/ufda/!svn/ver/347/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/WebContent/WEB-INF/lib/mail.jar
+END
+org.springframework.jms-2.5.6.A.jar
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/WebContent/WEB-INF/lib/org.springframework.jms-2.5.6.A.jar
+END
+json-lib-2.0-jdk13.jar
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/WebContent/WEB-INF/lib/json-lib-2.0-jdk13.jar
+END
+commons-collections-3.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/WebContent/WEB-INF/lib/commons-collections-3.1.jar
+END
+spring-webmvc-2.5.4.jar
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/WebContent/WEB-INF/lib/spring-webmvc-2.5.4.jar
+END
+org.springframework.batch.core-2.0.0.RELEASE.jar
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/WebContent/WEB-INF/lib/org.springframework.batch.core-2.0.0.RELEASE.jar
+END
+org.springframework.xml-1.5.5.A.jar
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/WebContent/WEB-INF/lib/org.springframework.xml-1.5.5.A.jar
+END
+com.springsource.javax.jms-1.1.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/WebContent/WEB-INF/lib/com.springsource.javax.jms-1.1.0.jar
+END
+activation.jar
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/WebContent/WEB-INF/lib/activation.jar
+END
+commons-betwixt-0.8.jar
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/WebContent/WEB-INF/lib/commons-betwixt-0.8.jar
+END
+oscache-2.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/WebContent/WEB-INF/lib/oscache-2.1.jar
+END
+imageinfo-1.9.jar
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/WebContent/WEB-INF/lib/imageinfo-1.9.jar
+END
+mahout-core-0.5-sources.jar
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/WebContent/WEB-INF/lib/mahout-core-0.5-sources.jar
+END
+mahout-collections-1.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/WebContent/WEB-INF/lib/mahout-collections-1.0.jar
+END
+org.springframework.test-2.5.6.A.jar
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/WebContent/WEB-INF/lib/org.springframework.test-2.5.6.A.jar
+END
+jsr94.jar
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/WebContent/WEB-INF/lib/jsr94.jar
+END
+com.springsource.org.hibernate.ejb-3.3.2.GA.jar
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/WebContent/WEB-INF/lib/com.springsource.org.hibernate.ejb-3.3.2.GA.jar
+END
+cglib-2.1.3.jar
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/WebContent/WEB-INF/lib/cglib-2.1.3.jar
+END
+commons-digester-1.5.jar
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/WebContent/WEB-INF/lib/commons-digester-1.5.jar
+END
+commons-pool.jar
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/WebContent/WEB-INF/lib/commons-pool.jar
+END
+org.springframework.batch.test-2.0.0.RELEASE-javadoc.jar
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/WebContent/WEB-INF/lib/org.springframework.batch.test-2.0.0.RELEASE-javadoc.jar
+END
+axis-ant.jar
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/WebContent/WEB-INF/lib/axis-ant.jar
+END
+com.springsource.org.apache.commons.dbcp-1.2.2.osgi.jar
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/WebContent/WEB-INF/lib/com.springsource.org.apache.commons.dbcp-1.2.2.osgi.jar
+END
+drools-decisiontables.jar
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/WebContent/WEB-INF/lib/drools-decisiontables.jar
+END
+org.springframework.osgi.io-1.1.2.A.jar
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/WebContent/WEB-INF/lib/org.springframework.osgi.io-1.1.2.A.jar
+END
+com.springsource.org.apache.commons.collections-3.2.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 156
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/WebContent/WEB-INF/lib/com.springsource.org.apache.commons.collections-3.2.0.jar
+END
+org.springframework.batch.test-2.0.0.RELEASE-sources.jar
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/WebContent/WEB-INF/lib/org.springframework.batch.test-2.0.0.RELEASE-sources.jar
+END
+xalan.jar
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/ufda/!svn/ver/343/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/WebContent/WEB-INF/lib/xalan.jar
+END
+com.springsource.org.apache.log4j-1.2.15.jar
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/WebContent/WEB-INF/lib/com.springsource.org.apache.log4j-1.2.15.jar
+END
+dteapi.jar
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/WebContent/WEB-INF/lib/dteapi.jar
+END
+com.springsource.org.hibernate.annotations-3.3.1.ga.jar
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/WebContent/WEB-INF/lib/com.springsource.org.hibernate.annotations-3.3.1.ga.jar
+END
+commons-cli-1.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/WebContent/WEB-INF/lib/commons-cli-1.0.jar
+END
+js.jar
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/WebContent/WEB-INF/lib/js.jar
+END
+saaj.jar
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/WebContent/WEB-INF/lib/saaj.jar
+END
+hadoop-core-0.20.203.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/WebContent/WEB-INF/lib/hadoop-core-0.20.203.0.jar
+END
+commons-io-1.3.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/WebContent/WEB-INF/lib/commons-io-1.3.2.jar
+END
+ezmorph-1.0.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/WebContent/WEB-INF/lib/ezmorph-1.0.2.jar
+END
+commons-dbcp.jar
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/WebContent/WEB-INF/lib/commons-dbcp.jar
+END
+org.springframework.beans-2.5.6.A.jar
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/WebContent/WEB-INF/lib/org.springframework.beans-2.5.6.A.jar
+END
+com.springsource.org.objectweb.asm.commons-2.2.3.jar
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/WebContent/WEB-INF/lib/com.springsource.org.objectweb.asm.commons-2.2.3.jar
+END
+mahout-math-0.5.jar
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/WebContent/WEB-INF/lib/mahout-math-0.5.jar
+END
+commons-codec-1.3.jar
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/WebContent/WEB-INF/lib/commons-codec-1.3.jar
+END
+xml-apis-xerces-2.9.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/ufda/!svn/ver/343/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/WebContent/WEB-INF/lib/xml-apis-xerces-2.9.1.jar
+END
+com.springsource.org.aopalliance-1.0.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/WebContent/WEB-INF/lib/com.springsource.org.aopalliance-1.0.0.jar
+END
+com.springsource.antlr-2.7.6.jar
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/WebContent/WEB-INF/lib/com.springsource.antlr-2.7.6.jar
+END
+antlr-2.7.6.jar
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/WebContent/WEB-INF/lib/antlr-2.7.6.jar
+END
+junit.jar
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/WebContent/WEB-INF/lib/junit.jar
+END
+commons-lang-2.3.jar
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/WebContent/WEB-INF/lib/commons-lang-2.3.jar
+END
+mahout-utils-0.5.jar
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/WebContent/WEB-INF/lib/mahout-utils-0.5.jar
+END
+org.springframework.jdbc-2.5.6.A.jar
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/WebContent/WEB-INF/lib/org.springframework.jdbc-2.5.6.A.jar
+END
+org.springframework.batch.core-2.0.0.RELEASE-javadoc.jar
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/WebContent/WEB-INF/lib/org.springframework.batch.core-2.0.0.RELEASE-javadoc.jar
+END
+slf4j-api-1.6.4.jar
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/WebContent/WEB-INF/lib/slf4j-api-1.6.4.jar
+END
+axis-schema.jar
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/WebContent/WEB-INF/lib/axis-schema.jar
+END
+viewservlets.jar
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/WebContent/WEB-INF/lib/viewservlets.jar
+END
+mvel.jar
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/WebContent/WEB-INF/lib/mvel.jar
+END
+com.springsource.com.thoughtworks.xstream-1.3.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/WebContent/WEB-INF/lib/com.springsource.com.thoughtworks.xstream-1.3.0.jar
+END
+com.springsource.org.dom4j-1.6.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/WebContent/WEB-INF/lib/com.springsource.org.dom4j-1.6.1.jar
+END

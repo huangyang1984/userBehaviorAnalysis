@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+  <class dynamic-update="true" table="k_order_goods" lazy="false" name="net.ufida.info.mahout.model.KOrderGoods" dynamic-insert="true">
+    <id type="integer" column="rec_id" length="32" name="recId">
+      <generator class="native"/>
+    </id>
+    <property name="orderId" type="integer" column="order_id"/>
+    <property name="goodsId" type="integer" column="goods_id"/>
+    <property name="goodsName" type="string" column="goods_name"/>
+    <property name="goodsSn" type="string" column="goods_sn"/>
+    <property name="goodsNumber" type="string" column="goods_number"/>
+    <property name="marketPrice" type="java.math.BigDecimal" column="market_price"/>
+    <property name="goodsPrice" type="java.math.BigDecimal" column="goods_price"/>
+    <property name="goodsAttr" type="string" column="goods_attr"/>
+    <property name="sendNumber" type="integer" column="send_number"/>
+    <property name="isReal" type="integer" column="is_real"/>
+    <property name="extensionCode" type="string" column="extension_code"/>
+    <property name="parentId" type="integer" column="parent_id"/>
+    <property name="isGift" type="int" column="is_gift"/>
+    <property name="goodsAttrId" type="string" column="goods_attr_id"/>
+    <property name="productId" type="integer" column="product_id"/>
+  </class>
+</hibernate-mapping>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+  <class dynamic-update="true" table="x27_accessory" name="net.gbicc.x27.core.model.Accessory" schema="tcrcb">
+    <id type="string" column="accessory_id" length="32" name="idStr">
+      <generator class="uuid"/>
+    </id>
+    <property name="uuid" length="32" type="string" column="uuid"/>
+    <property name="fileName" not-null="true" length="255" type="string" column="file_name"/>
+    <property name="createTime" not-null="true" length="32" type="calendar" column="create_time"/>
+    <property name="fileSize" not-null="true" length="32" type="long" column="file_size"/>
+    <many-to-one not-null="true" column="accessory_content_id" name="accessoryContent" class="net.gbicc.x27.core.model.AccessoryContent"/>
+  </class>
+</hibernate-mapping>

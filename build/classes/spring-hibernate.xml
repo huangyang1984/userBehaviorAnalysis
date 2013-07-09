@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN" "http://www.springframework.org/dtd/spring-beans.dtd"-->
+
+<beans default-autowire="byName"
+	xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:aop="http://www.springframework.org/schema/aop"
+	xmlns:tx="http://www.springframework.org/schema/tx"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans classpath:net/ufida/x27/conf/spring-beans-2.0.xsd
+         http://www.springframework.org/schema/aop classpath:net/ufida/x27/conf/spring-aop-2.0.xsd
+         http://www.springframework.org/schema/tx classpath:net/ufida/x27/conf/spring-tx-2.0.xsd">
+
+	<bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource"
+		destroy-method="close">
+		<property name="driverClassName">
+			<value>com.mysql.jdbc.Driver</value>
+		</property>
+		<property name="url">
+			<value>jdbc:mysql://192.168.100.213:3306/kshopdb</value>
+		</property>
+		<property name="username">
+			<value>kshopdb</value>
+		</property>
+		<property name="password">
+			<value>a123456</value>
+		</property>
+	</bean>
+	
+	<bean id="sessionFactory"
+		class="org.springframework.orm.hibernate3.LocalSessionFactoryBean"
+		destroy-method="destroy">
+		<property name="dataSource" ref="dataSource" />
+		<property name="mappingLocations">
+			<list>
+                <value>
+                    classpath:spring-hibernate-type.xml
+                </value>
+				<value>
+					classpath:/net/ufida/info/login/model/*.hbm.xml
+				</value>
+				<value>
+					classpath:/net/ufida/info/mahout/model/*.hbm.xml
+				</value>
+			</list>
+		</property>
+		<property name="hibernateProperties">
+			<props>
+                <!-- 解决weblogic抛出的ClassNotFoundException: org.hibernate.hql.ast.HqlToken异常
+                     代价是不能再使用批量删除和更新，主要是因为h3新版本的ASTQueryTranslatorFactory需要ANTLR库的支持，
+                     但是偏偏在weblogic.jar这个库里面已经含有一个版本的ANTLR，从而可能因为类装载的问题而已找不到你的那个类
+                     （虽然看上去存在与硬盘，估计都没机会load入内存了）。解决方法是把h3的相关类库放到应用服务器的boot classpath中，
+                     原文：Place all your Hibernate and dependent libraries on the application server's boot 
+                     classpath or use the old query parser as described above.
+                     http://www.hibernate.org/250.html,    其中的 "BEA Weblogic issues "，
+                     就是放到weblogic启动脚本的classpath里面,并且放到classpath的最前面.或者在系统的环境变量里面加上classpath,
+                     在这个classpath中去指定。
+                -->
+                <!--
+                <prop key="hibernate.query.factory_class">org.hibernate.hql.classic.ClassicQueryTranslatorFactory</prop>
+                -->
+
+				<prop key="hibernate.dialect">
+					${hibernate.dialect}
+				</prop>
+				<prop key="hibernate.hbm2ddl.auto">false</prop>
+				<prop key="hibernate.max_fetch_depth">3</prop>
+				<prop key="hibernate.jdbc.fetch_size">60</prop>
+				<prop key="hibernate.jdbc.batch_size">100</prop>
+				<prop key="hibernate.jdbc.use_scrollable_resultset">false</prop>
+				<prop key="hibernate.use_outer_join">true</prop>
+				<prop key="hibernate.format_sql">false</prop>
+				<prop key="hibernate.connection.pool_size">20</prop>
+				<prop key="hibernate.show_sql">true</prop>  
+                <prop key="hibernate.cache.use_query_cache">true</prop>    
+                <prop key="hibernate.cache.provider_class">org.hibernate.cache.EhCacheProvider</prop>   
+                <prop key="hibernate.cache.use_second_level_cache">true</prop>  
+<!-- 		    <prop key="hibernate.cache.provider_class">
+					org.hibernate.cache.OSCacheProvider
+				</prop>
+ -->		
+           </props>
+		</property>
+	</bean>
+
+	<bean id="transactionManager"
+		class="org.springframework.orm.hibernate3.HibernateTransactionManager">
+		<property name="sessionFactory" ref="sessionFactory" />
+	</bean> 
+	
+	<!-- <bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+	    <property name="dataSource" ref="dataSource"/>
+	</bean> -->
+
+	<!-- 声明式事务管理begin -->
+	<aop:config>
+		<aop:advisor
+			pointcut="execution(* net.ufida.info.login.service..*ServiceImpl.*(..))"
+			advice-ref="txAdvice" />
+		<aop:advisor
+			pointcut="execution(* net.ufida.info.mahout.service..*ServiceImpl.*(..))"
+			advice-ref="txAdvice" />
+	</aop:config>
+
+	<tx:advice id="txAdvice" transaction-manager="transactionManager">
+		<tx:attributes>
+			<tx:method name="find*" read-only="true" />
+			<tx:method name="get*" read-only="true" />
+			<tx:method name="load*" read-only="true" />
+			<tx:method name="query*" read-only="true" />
+			<tx:method name="*" rollback-for="Exception" />
+		</tx:attributes>
+	</tx:advice>
+	
+	
+    <import resource="classpath:net/ufida/info/conf/info-component.xml" />
+</beans>

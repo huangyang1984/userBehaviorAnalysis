@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/src/net/ufida/x27/conf
+END
+x27-component.xml
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/src/net/ufida/x27/conf/x27-component.xml
+END
+x27-Dictionary-DB.properties
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/src/net/ufida/x27/conf/x27-Dictionary-DB.properties
+END
+spring-beans-2.0.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/src/net/ufida/x27/conf/spring-beans-2.0.xsd
+END
+spring-tx-2.0.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/src/net/ufida/x27/conf/spring-tx-2.0.xsd
+END
+spring-aop-2.0.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/src/net/ufida/x27/conf/spring-aop-2.0.xsd
+END
+x27-Dictionary-File.properties
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/src/net/ufida/x27/conf/x27-Dictionary-File.properties
+END
+x27-ehcache.xml
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/src/net/ufida/x27/conf/x27-ehcache.xml
+END

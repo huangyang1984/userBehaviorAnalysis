@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/src/net/ufida/info/mahout/job
+END
+QuartzLedgerJob.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/src/net/ufida/info/mahout/job/QuartzLedgerJob.java
+END
+AppJobExecutionListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/src/net/ufida/info/mahout/job/AppJobExecutionListener.java
+END
+GetRequiredDataJob.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/ufda/!svn/ver/347/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/src/net/ufida/info/mahout/job/GetRequiredDataJob.java
+END
+ItemFailureLoggerListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/src/net/ufida/info/mahout/job/ItemFailureLoggerListener.java
+END
+BasicRemmenderModelRowMapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/src/net/ufida/info/mahout/job/BasicRemmenderModelRowMapper.java
+END

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+	<class dynamic-update="true" lazy="false" table="tb_subsys_role_menu" name="net.ufida.info.login.model.SystemRoleMenu" dynamic-insert="true">
+    	<composite-id>
+       		<key-property name="subsys_role_id" column="subsys_role_id" type="integer"></key-property>
+       		<key-property name="subsys_menu_id" column="subsys_menu_id" type="integer"></key-property>
+    	</composite-id>
+    	<many-to-one insert="false" column="subsys_role_id" update="false" name="sysRoleList" class="net.ufida.info.login.model.SystemRole"/>
+    	<many-to-one insert="false" column="subsys_menu_id" update="false" name="sysMenuList" class="net.ufida.info.login.model.SystemMenu"/>
+  	</class>
+</hibernate-mapping>

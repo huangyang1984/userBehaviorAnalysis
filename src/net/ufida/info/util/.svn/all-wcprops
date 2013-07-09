@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/src/net/ufida/info/util
+END
+CoreAppConfig.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/src/net/ufida/info/util/CoreAppConfig.java
+END
+QuartzScheduleUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/ufda/!svn/ver/346/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/src/net/ufida/info/util/QuartzScheduleUtil.java
+END
+ResourceManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/ufda/!svn/ver/346/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/src/net/ufida/info/util/ResourceManager.java
+END
+FileCache.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/ufda/!svn/ver/345/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/src/net/ufida/info/util/FileCache.java
+END
+StringUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/ufda/!svn/ver/341/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/src/net/ufida/info/util/StringUtil.java
+END
+HDFSUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/ufda/!svn/ver/347/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/src/net/ufida/info/util/HDFSUtils.java
+END
+MD5.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/src/net/ufida/info/util/MD5.java
+END
+RecommendationAlgorithmManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/ufda/!svn/ver/347/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/src/net/ufida/info/util/RecommendationAlgorithmManager.java
+END
+CategoryUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/ufda/!svn/ver/347/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/src/net/ufida/info/util/CategoryUtil.java
+END
+TasteHadoopUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/src/net/ufida/info/util/TasteHadoopUtils.java
+END
+SuperAdminMd5.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/src/net/ufida/info/util/SuperAdminMd5.java
+END

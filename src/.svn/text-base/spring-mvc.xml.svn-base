@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN" "http://www.springframework.org/dtd/spring-beans.dtd">
+
+<beans default-autowire="byName" default-lazy-init="true">
+	
+	<bean id="viewResolver"
+		class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+		<property name="viewClass">
+			<value>org.springframework.web.servlet.view.JstlView</value>
+		</property>
+		<property name="prefix">
+			<value>/</value>
+		</property>
+		<property name="suffix">
+			<value>.jsp</value>
+		</property>
+	</bean>
+
+	<bean id="methodNameResolver"
+		class="org.springframework.web.servlet.mvc.multiaction.ParameterMethodNameResolver">
+		<property name="paramName">
+			<value>method</value>
+		</property>
+		<property name="defaultMethodName">
+			<value>query</value>
+		</property>
+	</bean>
+
+	<bean id="controlHandlerMapping"
+		class="org.springframework.web.servlet.handler.SimpleUrlHandlerMapping">
+		<property name="mappings">
+			<props>
+				<prop key="login.do">loginCtrl</prop>
+				<prop key="userCf.do">userCfCtrl</prop>
+				<prop key="slopeOne.do">slopeOneCtrl</prop>
+			</props>
+		</property>
+	</bean>
+
+	<bean id="loginCtrl" class="net.ufida.info.login.ctrl.LoginCtrl"></bean>
+	
+	<bean id="userCfCtrl" class="net.ufida.info.mahout.ctrl.UserCfCtrl"></bean>
+	
+	<bean id="slopeOneCtrl" class="net.ufida.info.mahout.ctrl.SlopeOneCtrl"></bean>
+</beans>

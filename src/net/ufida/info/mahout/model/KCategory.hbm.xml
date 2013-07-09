@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+  <class dynamic-update="true" table="k_category" lazy="false" name="net.ufida.info.mahout.model.KCategory" dynamic-insert="true">
+    <id type="integer" column="cat_id" length="32" name="catId">
+      <generator class="native"/>
+    </id>
+    <property name="catName" type="string" column="cat_name"/>
+    <property name="keyWords" type="string" column="keywords"/>
+    <property name="catDesc" type="string" column="cat_desc"/>
+    <property name="parentId" type="integer" column="parent_id"/>
+    <property name="sortOrder" type="integer" column="sort_order"/>
+  </class>
+</hibernate-mapping>
+
+

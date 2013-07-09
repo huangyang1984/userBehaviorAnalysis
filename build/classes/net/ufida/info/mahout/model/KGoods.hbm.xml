@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+  <class dynamic-update="true" table="k_goods" lazy="false" name="net.ufida.info.mahout.model.KGoods" dynamic-insert="true">
+    <id type="integer" column="goods_id" length="32" name="goodsId">
+      <generator class="native"/>
+    </id>
+    <property name="catId" type="integer" column="cat_id"/>
+    <property name="goodsSn" type="string" column="goods_sn"/>
+    <property name="goodsName" type="string" column="goods_name"/>
+    <property name="goodsNameStyle" type="string" column="goods_name_style"/>
+  </class>
+</hibernate-mapping>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+  <class dynamic-update="true" table="TB_SYSTEM_CFG" name="net.gbicc.x27.core.model.SystemCfg" dynamic-insert="true" schema="tcrcb">
+    <id type="string" column="system_cfg_id" length="32" name="idStr">
+      <generator class="uuid"/>
+    </id>
+    <property name="name" not-null="true" length="50" type="string" column="name" unique="true"/>
+    <property name="value" not-null="true" length="50" type="string" column="value"/>
+  </class>
+</hibernate-mapping>

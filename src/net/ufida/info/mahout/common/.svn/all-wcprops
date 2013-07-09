@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/ufda/!svn/ver/336/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/src/net/ufida/info/mahout/common
+END
+SlopeOneRecommender.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/ufda/!svn/ver/347/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/src/net/ufida/info/mahout/common/SlopeOneRecommender.java
+END
+MemoryDiffStorage.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/ufda/!svn/ver/337/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/src/net/ufida/info/mahout/common/MemoryDiffStorage.java
+END
+CachingRecommender.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/ufda/!svn/ver/347/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/src/net/ufida/info/mahout/common/CachingRecommender.java
+END
+RefreshHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/ufda/!svn/ver/336/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/src/net/ufida/info/mahout/common/RefreshHelper.java
+END

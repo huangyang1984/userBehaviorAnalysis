@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+  <class dynamic-update="true" table="TB_ORGANIZATION" name="net.gbicc.x27.core.model.Organization" dynamic-insert="true" schema="tcrcb">
+    <id type="string" column="org_id" length="32" name="idStr">
+      <generator class="uuid"/>
+    </id>
+    <property name="orgName" not-null="true" length="50" type="string" column="org_name" unique="true"/>
+    <property name="orgShortName" length="50" type="string" column="org_short_name"/>
+    <property name="orgCode" not-null="true" length="50" type="string" column="org_code" unique="true"/>
+    <property name="memo" length="255" type="string" column="memo"/>
+    <property name="orgType" length="4" type="string" column="ORG_TYPE"/>
+    <bag table="TR_USER_ORG" lazy="true" inverse="true" cascade="save-update" name="users" schema="tcrcb">
+      <key column="ORG_ID"/>
+      <many-to-many column="PK_ID" class="net.gbicc.x27.core.model.User"/>
+    </bag>
+    <many-to-one column="FK_PARENT_ORG_ID" name="parentOrganization" class="net.gbicc.x27.core.model.Organization"/>
+    <bag inverse="true" cascade="save-update" order-by="ORG_NAME" name="childOrgs">
+      <key column="FK_PARENT_ORG_ID"/>
+      <one-to-many class="net.gbicc.x27.core.model.Organization"/>
+    </bag>
+  </class>
+</hibernate-mapping>

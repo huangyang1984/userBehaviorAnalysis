@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+  <class dynamic-update="true" table="TB_USER" name="net.gbicc.x27.core.model.User" dynamic-insert="true" schema="tcrcb">
+    <id type="string" column="PK_ID" length="32" name="idStr">
+      <generator class="uuid"/>
+    </id>
+    <property name="userName" not-null="true" length="255" type="string" column="USER_NAME" unique="true"/>
+    <property name="password" not-null="true" length="255" type="string" column="PWD"/>
+    <property name="email" length="50" type="string" column="EMAIL"/>
+    <property name="realName" length="50" type="string" column="REAL_NAME"/>
+    <property name="sex" length="2" type="string" column="SEX"/>
+    <property name="birthDate" type="calendar" column="BIRTH_DATE"/>
+    <property name="lastLoginIp" length="50" type="string" column="last_login_ip"/>
+    <property name="lastLoginTime" type="timestamp" column="last_login_time"/>
+    <property name="userStatus" length="1" type="string" column="USER_STATUS"/>
+    <bag table="TR_USER_ORG" lazy="true" cascade="save-update" name="organizations" schema="tcrcb">
+      <key column="PK_ID"/>
+      <many-to-many column="ORG_ID" class="net.gbicc.x27.core.model.Organization"/>
+    </bag>
+    <bag table="TR_USER_ROLE" cascade="save-update" name="roles" schema="tcrcb">
+      <key column="PK_ID"/>
+      <many-to-many column="ROLE_ID" class="net.gbicc.x27.core.model.Role"/>
+    </bag>
+    <property name="startDate" type="calendar" column="START_DATE"/>
+    <property name="terminateDate" type="calendar" column="TERMINATE_DATE"/>
+    <property name="privilege" length="2" type="string" column="PRIVILEGE"/>
+  </class>
+</hibernate-mapping>

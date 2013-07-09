@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+  <class dynamic-update="true" table="TB_ROLES" name="net.gbicc.x27.core.model.Role" dynamic-insert="true" schema="tcrcb">
+    <id type="string" column="role_id" length="32" name="idStr">
+      <generator class="uuid"/>
+    </id>
+    <property name="roleName" not-null="true" length="255" type="string" column="role_name" unique="true"/>
+    <property name="description" length="255" type="string" column="description"/>
+    <bag table="TR_USER_ROLE" inverse="true" cascade="save-update" name="users" schema="tcrcb">
+      <key column="ROLE_ID"/>
+      <many-to-many column="PK_ID" class="net.gbicc.x27.core.model.User"/>
+    </bag>
+    <bag table="TR_ROLE_PRI" cascade="save-update" name="privileges" schema="tcrcb">
+      <key column="ROLE_ID"/>
+      <many-to-many column="PRIVIL_ID" class="net.gbicc.x27.core.model.Privilege"/>
+    </bag>
+  </class>
+</hibernate-mapping>

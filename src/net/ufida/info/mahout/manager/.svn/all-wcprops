@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/src/net/ufida/info/mahout/manager
+END
+SlopeOneManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/ufda/!svn/ver/347/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/src/net/ufida/info/mahout/manager/SlopeOneManager.java
+END
+KGoodsManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/ufda/!svn/ver/346/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/src/net/ufida/info/mahout/manager/KGoodsManager.java
+END
+OrderGoodsManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/src/net/ufida/info/mahout/manager/OrderGoodsManager.java
+END
+UserCfManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/ufda/!svn/ver/347/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/src/net/ufida/info/mahout/manager/UserCfManager.java
+END
+KCategoryManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/ufda/!svn/ver/347/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/src/net/ufida/info/mahout/manager/KCategoryManager.java
+END
+CategoryManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/ufda/!svn/ver/335/code/trunk/userBehaviorAnalysis/userBehaviorAnalysis/src/net/ufida/info/mahout/manager/CategoryManager.java
+END
